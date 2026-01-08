@@ -137,6 +137,8 @@ spring.datasource.password=your_password   # Replace with your MySQL password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
+```
+
 ---
 
 ## 🔗 REST API Endpoints
