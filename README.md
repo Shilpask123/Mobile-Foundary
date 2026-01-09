@@ -131,9 +131,10 @@ MobileFoundary
 > ⚠️ Make sure your `application.properties` is configured for MySQL:
 
 ```properties
+spring.application.name=MobileFoundary
 spring.datasource.url=jdbc:mysql://localhost:3306/mobilefoundary
-spring.datasource.username=your_username   # Replace with your MySQL username
-spring.datasource.password=your_password   # Replace with your MySQL password
+spring.datasource.username=your_username   
+spring.datasource.password=your_password   
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
